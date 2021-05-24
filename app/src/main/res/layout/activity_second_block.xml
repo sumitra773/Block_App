@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondBlock">
+
+    <TextView
+        android:id="@+id/tx_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Sumo"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_me"
+        android:layout_below="@+id/tx_view"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="90dp"
+        android:src="@drawable/pig" />
+
+    <Button
+        android:id="@+id/btn_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="50dp"
+        android:padding="20dp"
+        android:text="Take Me"
+        android:textSize="30sp" />
+
+</RelativeLayout>
